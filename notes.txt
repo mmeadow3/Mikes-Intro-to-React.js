@@ -3,3 +3,6 @@ Notes:
 React start at Facebook
 
 Uses virtual DOM and JSX syntax
+
+the Vitual DOM is a JS object
+React is fast bc it "reacts" with the virtual DOM and only outputs to the DOM when needed
