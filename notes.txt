@@ -6,3 +6,9 @@ Uses virtual DOM and JSX syntax
 
 the Vitual DOM is a JS object
 React is fast bc it "reacts" with the virtual DOM and only outputs to the DOM when needed
+
+JSX requires babel
+added from cdnjs, use the "babel-core" link
+
+Now make sure that the script tag at with the logic has this header:
+<script type="text/babel">
