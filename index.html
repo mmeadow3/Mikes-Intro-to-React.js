@@ -6,16 +6,14 @@
         <title>React hello World</title>
     </head>
     <body>
+      <div id="react-container"></div>
     <script type="text/babel">
-        var HelloWorld = React.createClass({
-                render: function() {
-                return <div>
-                    <h1>Hello World</h1>
-                    <p>This is some text</p>
-                </div>
+        var MyComponent = React.createClass({
+            render: function() {
+                return <div>My React Component</div>;
             }
         });
-        React.render(<HelloWorld />, document.body);
+        React.render(<MyComponent/>, document.getElementById('react-container'))
     </script>
     </body>
 </html>

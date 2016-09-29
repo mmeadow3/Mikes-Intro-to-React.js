@@ -1,4 +1,5 @@
 # Mikes-Intro-to-React.js
+## Based of Lynda.com tutorial
 
 ### Basic Setup
 ---
